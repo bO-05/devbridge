@@ -44,7 +44,7 @@ recent version
 ```bash
 pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ --no-cache-dir devbridge==0.1.4 
 ```
-(Replace `devbridge` with `devbridge==0.1.1` or the specific version you want to test if needed.)
+(Replace `devbridge` with `devbridge==0.1.4` or the specific version you want to test if needed.)
 
 *Once DevBridge is published on the main PyPI (the Python Package Index), installation will be as simple as: `pip install devbridge`*
 
@@ -251,7 +251,6 @@ MIT
     │   ├── learn_cmd.py
     │   └── transfer_cmd.py
     ├── config.py
-    ├── devbridge.db
     ├── models
     │   ├── pattern.py
     │   └── repository.py
@@ -269,4 +268,7 @@ MIT
     │   └── wsl_utils.py
 ├── requirements.txt
 ├── setup.py
+└── tests
+    ├── readme.md
+    └── test_devbridge_all.sh
 ```
