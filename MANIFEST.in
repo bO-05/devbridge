@@ -1,0 +1,3 @@
+include devbridge/utils/js_parser.js
+include requirements.txt
+include LICENSE 
